@@ -15,3 +15,8 @@ nav a{
     color: antiquewhite;
     text-decoration: none;
 }
+.header{
+    background-image: url(Resource/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
