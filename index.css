@@ -36,3 +36,22 @@ nav a{
     color: black;
     font-style: italic;
 }
+.spread{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    border: 2px solid white;
+    background-color: white;
+    padding: 45px;
+}
+.box h6{
+    color: black;
+}
+.box button{
+    border:none ;
+   background-color: #F19201;
+   border-radius: 80%; 
+   color: white;
+   padding: 20px;
+}
