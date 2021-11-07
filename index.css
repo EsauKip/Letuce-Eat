@@ -115,6 +115,10 @@ nav a{
 }
 .black h3{
     padding: 30px;
+    color:white;
+}
+.black h6{
+    color: white;
 }
 .box1{
     display: flex;
@@ -146,11 +150,13 @@ nav a{
 }
 .main h4{
     margin-top: 30px;
+    color: black;
 }
 .main button{
     margin-top: 30px;
     background-color:#E1EBE6 ;
     color: black;
+    border: none;
 }.down{
     background-image: url(Resource/image8.png);
     padding-bottom: 300px;
