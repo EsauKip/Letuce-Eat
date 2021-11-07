@@ -3,3 +3,15 @@
     color: #F19201;
     margin: 0px;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    display: inline;
+    justify-content: space-around;
+    padding: 0px 10px 0px 10px;
+    font-size: 38px;
+    color: antiquewhite;
+    text-decoration: none;
+}
