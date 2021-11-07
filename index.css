@@ -26,3 +26,13 @@ nav a{
   font-weight: 65%;
   color: antiquewhite;
 }
+.mid{
+    text-align: center;
+    background-color: #E1EBE6;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+.mid p{
+    color: black;
+    font-style: italic;
+}
