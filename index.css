@@ -7,6 +7,9 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+#active{
+    color:#F19201 ;
+}
 nav a{
     display: inline;
     justify-content: space-around;
@@ -15,16 +18,53 @@ nav a{
     color: antiquewhite;
     text-decoration: none;
 }
+
+.header1{
+    display: flex;
+}
+.header1 h3{
+    padding-top: 30px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.description button{
+    background-color: #F19201;
+    margin-left: 100px;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    width: 140px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
 .header{
     background-image: url(Resource/image2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 700px;
 }
 .landmap{
+    margin-left: 80px;
+}
+.landmap p{
   margin-top: 100px;
-  font-size: 35px;
-  font-weight: 65%;
+  font-size: 50px;
+  font-weight: bold;
   color: antiquewhite;
+}
+.landmap button{
+     background-color: #F19201;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 30px;
+    width: 200px;
 }
 .mid{
     text-align: center;
@@ -82,6 +122,7 @@ nav a{
     background-color: #E1EBE6;
    flex-wrap: wrap;
    padding-right: 20px;
+   padding-bottom: 50px;
 }
 .box1 img{
     height: 400px;
@@ -95,8 +136,9 @@ nav a{
     margin-top: 30px;
 }
 .main img{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
 }
 .main p{
     color: black;
@@ -123,9 +165,11 @@ nav a{
 }
 .down button{
     background-color: transparent;
-    margin-left: 40%;
+    margin-left: 45%;
     color: white;
     border: 1px solid white;
+    font-size: 30px;
+    margin-top: 30px;
 }
 .footer{
     background-color: black;
